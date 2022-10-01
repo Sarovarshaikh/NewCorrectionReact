@@ -89,7 +89,7 @@ const Day_1 = () =>{
           <li>
             It requires different syntax inside a class component to implement
             hooks. example: constructor(props) #1545 super(props); this.state =
-            #1545name: ‘ ‘#1545 #1545
+          
           </li>
           <li>Constructor are used as it needs to store state.</li>
         </ol>
@@ -103,29 +103,7 @@ const Day_1 = () =>{
           make our state as simple as possible and minimize the number of
           stateful components. Let's create a user component with message state,
         </p>
-        <code style={{backgroundColor:"salmon"}}>
-                        class User extends React.Component {'{'}
-                    constructor {'('} props {')'} {'{'}
-                    super {'('}props {')'}
-
-                    this.state = {'{'}
-                        message: 'Welcome to React world'
-                    {'}'}
-                    {'}'}
-
-                    render() {'{'}
-                    return (
-                        <div>
-                        <h1>  {'{'} this.state.message {'}'}</h1>
-                        </div>
-                    )
-                    {'}'}
-                {'}'}
-        </code>
-        <p>
-          
-          {/* <img src="state.jg" alt="img..." /> */}
-        </p>
+    
       
       <h3 className="questions_1">
         5. What is JSX and why do we use it instead of js?

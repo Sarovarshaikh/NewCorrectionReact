@@ -68,7 +68,7 @@ const Day_2 = () => {
           >
             3. Routing Implementation
           </h3>
-          <p>Please see in src folder --{">"} Routing Folder.. </p>
+          
           <h3
             className="questions_1"
             style={{ borderBottom: "1ps solid gray" }}
@@ -108,7 +108,7 @@ const Day_2 = () => {
           <h3 className="questions_1">
             5. How do you pass data from parent to child
           </h3>
-          <p>please go through src folder --{">"} Data-p2c</p>
+          
           <h3 className="questions_1">
             6. Difference b/w Stateful and stateless Component.
           </h3>
@@ -128,24 +128,15 @@ const Day_2 = () => {
             component then it can be termed as stateful component. These
             stateful components are always class components and have a state
             that gets initialized in the constructor. class App extends
-            Component {"{ "}constructor(props) {" {"} super(props) this.state ={" "}
-            {"{"} count: 0 {"}"} {"}"}
+           
           </p>
-          <code style={{ backgroundColor: "salmon" }}>
-            render() {"{"} <br />
-            // ... <br />
-            {"}"}
-            {"}"}
-          </code>
+         
           <p>
             React 16.8 Update: Hooks let you use state and other React features
             without writing classes. The Equivalent Functional Component import
-            React, {"{"}useState{"}"} from 'react';
+            React,  from 'react';
           </p>
-          <code style={{ backgroundColor: "salmon" }}>
-            const App = (props) =&gt; {"{"}
-            const [count, setCount] = useState(0); return ( // JSX ){"}"}
-          </code>
+        
           <h3 style={{ borderBottom: "1px solid gray" }}>
             7.How do you switch one component to another, Conditional Rendering
           </h3>
@@ -162,7 +153,7 @@ const Day_2 = () => {
             </li>
             <li>
               Link Link is used to manage the navigation and it worked as an
-              anchor tag. Check below code for the demonstration. import {'{'}Link{'}'}
+              anchor tag. Check below code for the demonstration. import 
               from 'react-router-dom'; ... ... About
             </li>
           </ol>

@@ -30,12 +30,12 @@ const Day_4 = () => {
           <p>
             The Context API is a React structure that enables you to exchange
             unique details and assists in solving prop-drilling from all levels
-            of your application. (or) Context provides a way to pass data
+            of your application.Context provides a way to pass data
             through the component tree without having to pass props down
             manually at every level. For example, authenticated users, locale
             preferences, UI themes need to be accessed in the application by
-            many components. const {"{"}Provider, Consumer{"}"} =
-            React.createContext(defaultValue)
+            many components. const Provider, Consumer=
+            React.createContextdefaultValue
           </p>
           <h4 style={{ borderBottom: "1px solid gray", paddingBottom: "5px" }}>
             Difference between callback and useCallback Hook ?
@@ -52,26 +52,26 @@ const Day_4 = () => {
           </h3>
           <p>
             React Router is a standard library system built on top of the React
-            and used to create routing in the React application using React
+            and used to create r  outing in the React application using React
             Router Package.In this Browser Router as Router, Routes and Route
             and NavLink get imported from react-router-dom. React Router DOM
             enables you to implement dynamic routing in a web app. Unlike the
-            traditional routing architecture in which the routing is handled in
+            traditional routing ar  chitecture in which the routing is handled in
             a configuration outside of a running app, React Router DOM
             facilitates component-based routing according to the needs of the
             app and platform.
           </p>
           <h3
-            className="questions_1"
-            style={{ borderBottom: "1ps solid gray" }}
-          >
-            3. Routing Implementation
-          </h3>
-          <p>Please see in src folder --{">"} Routing Folder.. </p>
-          <h3
-            className="questions_1"
-            style={{ borderBottom: "1ps solid gray" }}
-          >
+            className="questions_1"                       
+            style={{ borderBottom: "1ps solid gray" }}  
+          > 
+              3. Routing Implementation
+          </h3  >
+          <p>Ple  ase see in src folder --{">"} Routing Folder.. </p>
+          <h3   
+            clas  sName="questions_1"
+            style=  {{ borderBottom: "1ps solid gray" }}
+          > 
             4. What is lazy loading in react ?
           </h3>
           <p>
@@ -84,8 +84,8 @@ const Day_4 = () => {
             images at page load, and replaces them with lazily-loaded images as
             they're scrolled into the viewport. An example of image lazy-loading
             in action. Benefits: The benefits of lazy loading include: Reduces
-            initial load time – Lazy loading a webpage reduces page weight,
-            allowing for a quicker page load time. Bandwidth conservation – Lazy
+            initial load time  Lazy loading a webpage reduces page weight,
+            allowing for a quicker page load time. Bandwidth conservation  Lazy
             loading conserves bandwidth by delivering content to users only if
             it's requested.
           </p>
@@ -100,14 +100,12 @@ const Day_4 = () => {
             stateful components. Let's create a user component with message
             state,
           </p>
-          <p>
-            <img src="" alt="img..." />
-          </p>
+         
 
           <h3 className="questions_1">
             5. How do you pass data from parent to child
           </h3>
-          <p>please go through src folder --{">"} Data-p2c</p>
+          
           <h3 className="questions_1">
             6. Difference b/w Stateful and stateless Component.
           </h3>
@@ -127,24 +125,15 @@ const Day_4 = () => {
             component then it can be termed as stateful component. These
             stateful components are always class components and have a state
             that gets initialized in the constructor. class App extends
-            Component {"{ "}constructor(props) {" {"} super(props) this.state ={" "}
-            {"{"} count: 0 {"}"} {"}"}
+           
           </p>
-          <code style={{ backgroundColor: "salmon" }}>
-            render() {"{"} <br />
-            // ... <br />
-            {"}"}
-            {"}"}
-          </code>
+        
           <p>
             React 16.8 Update: Hooks let you use state and other React features
             without writing classes. The Equivalent Functional Component import
-            React, {"{"}useState{"}"} from 'react';
+            React, from 'react';
           </p>
-          <code style={{ backgroundColor: "salmon" }}>
-            const App = (props) =&gt; {"{"}
-            const [count, setCount] = useState(0); return ( // JSX ){"}"}
-          </code>
+        
           <h3 style={{ borderBottom: "1px solid gray" }}>
             7.How do you switch one component to another, Conditional Rendering
           </h3>
@@ -161,8 +150,8 @@ const Day_4 = () => {
             </li>
             <li>
               Link Link is used to manage the navigation and it worked as an
-              anchor tag. Check below code for the demonstration. import {"{"}
-              Link{"}"}
+              anchor tag. Check below code for the demonstration. import 
+              Link
               from 'react-router-dom'; ... ... About
             </li>
           </ol>

@@ -20,35 +20,18 @@ const Day_3 = () => {
             Promise API that is native to JS ES6. It can be used intercept HTTP
             requests and responses and enables client-side protection against
             XSRF. It also has the ability to cancel requests. EX::
-            axios.get('url') .then((response) =&gt; {"{"} <br />
-            ➡️ <br /> <br />
-            // Code for handling the response <br />
-            {"}"}) <br></br>
-            .catch((error) ={">"} {"{"} <br />
-            // Code for handling the error <br></br>
-            {" }"})
+      
           </p>
           <h2>Fetch:</h2>
           <p>
-            {" "}
+           
             The Fetch API provides a fetch() method defined on the window
             object. It also provides a JavaScript interface for accessing and
             manipulating parts of the HTTP pipeline (requests and responses).
             The fetch method has one mandatory argument- the URL of the resource
             to be fetched. This method returns a Promise that can be used to
             retrieve the response of the request. EX::
-            fetch('path-to-the-resource-to-be-fetched') .then((response) ={
-              ">"
-            }{" "}
-            {"{"}
-          </p>
-          <p>
-            {" "}
-            // Code for handling the response <br />
-            {"}"}) <br />
-            .catch((error) ={">"} {"{"} <br />
-            // Code for handling the error <br />
-            {"}"});
+       
           </p>
           <table id="customers">
             <tr style={{ visibility: "" }}>
