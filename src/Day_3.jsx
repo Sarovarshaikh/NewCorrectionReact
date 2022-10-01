@@ -1,5 +1,7 @@
 import React from "react";
+import UseCall from "./UseCall";
 import UseEffect from "./UseEffect";
+import UseMemo from "./UseMemo";
 import UseReducer from "./UseReducer";
 import UseState from "./UseState";
 
@@ -156,6 +158,7 @@ const Day_3 = () => {
           <h3 className="questions_1">
             4. What is UseMemo Hook ?(Implementation)
           </h3>
+          <UseMemo/>
           <h1>smae As UseEffect....</h1>
           <h2>
             use:React has a built-in hook called useMemo that allows you to
@@ -164,6 +167,7 @@ const Day_3 = () => {
             and useMemo will only recompute the memoized value when one of the
             inputs has changed.
           </h2>
+          <UseCall/>
         </div>
       </div>
     </>
