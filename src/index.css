@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.active_class{
+ text-decoration: none;
+  border-bottom: 1px solid red;
+}
+.menu_style{
+  width: 100%;
+  line-height: 60px;
+  background-color: aqua;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title_container{
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  padding: 20px 0;
+}
+.title_container .title_head{
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 900;
+ color: blue;
+}
+.linkContainer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.linkContainer li{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  text-decoration: none;
+}
+.day_title{
+  width: 25%;
+  margin: auto;
+  text-align: center;
+}
+.container_div_questins_ans{
+  width: 70%;
+  margin: auto;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers td{
+  padding-left: 20px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  
+  
+}
+
+.useButton{
+  padding: 15px 20px;
+  background-color: purple;
+  border: 2px solid #ddd;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+}
+.use_button{
+  margin: auto;
+  width: 50%;
+  
+}
+.count_num{
+  padding-left: 44px;
+}
+.useReduce p{
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid gray;
+  width: 20%;
+  margin: auto;
+}
+.useReduce button{
+ padding: 15px 20px;
+ margin: 0 5px;
+ width: 20%;
+ margin: auto;
+}
+/* .useReduce {
+  display: block;
+  justify-content: space-between;
+} */
